@@ -14,6 +14,7 @@ import image5 from '../assets/imgs/features/img5.webp'
 import image6 from '../assets/imgs/features/img6.webp'
 import image7 from '../assets/imgs/features/img7.webp'
 import image8 from '../assets/imgs/features/img8.webp'
+import image9 from '../assets/imgs/features/img9.webp'
 
 import aboutImg from '../assets/imgs/about/aboutImg.webp'
 import img1 from '../assets/imgs/about/imgGaleria1.webp'
@@ -219,6 +220,7 @@ const content = {
         imagem6: image6,
         imagem7: image7,
         imagem8: image8,
+        imagem9: image9,
       },
       cards: {
         card1: {
