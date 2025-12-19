@@ -9,7 +9,7 @@ import MotionDivDownToUp from "../../components/animation/MotionDivDownToUp";
 export default function FeaturesLpi({ colorMode }) {
   return (
     <div>
-      <SectionArea id="service" className="squares">
+      <SectionArea id="service" className="">
         <SectionHeader
           className="text-center mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]"
           miniTitle={content.texts.features.miniTag}

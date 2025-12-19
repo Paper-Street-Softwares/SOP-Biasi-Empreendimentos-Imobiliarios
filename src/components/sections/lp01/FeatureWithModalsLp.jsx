@@ -30,7 +30,7 @@ export default function FeatureWithModalsLp({ modals }) {
   };
   return (
     <div>
-      <SectionArea id="service" className="squares">
+      <SectionArea id="service" className="">
         <SectionHeader
           className="text-center"
           miniTitle={contentLp01.features.sectionHeader.miniTag}

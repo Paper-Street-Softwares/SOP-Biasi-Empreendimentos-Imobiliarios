@@ -14,7 +14,7 @@ export default function FeaturesParagraphs({ modal, colorMode, buttonLink }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
-    default: "squares",
+    default: "",
   };
   const textClasses = {
     dark: "text-white",

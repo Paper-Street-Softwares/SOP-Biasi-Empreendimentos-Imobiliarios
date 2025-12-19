@@ -6,7 +6,7 @@ import HowltWorksCardLPV from "../../HowltWorksCardLPV";
 
 export default function StepsLpv() {
   return (
-    <SectionArea className="squares" paddingtop={true}>
+    <SectionArea className="" paddingtop={true}>
       <SectionWrapper className="flex flex-col gap-[40px] desktop2:gap-0 desktop1:justify-between">
         <div className="w-[90%]">
           <SectionHeader

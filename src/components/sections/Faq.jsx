@@ -1,4 +1,3 @@
-
 import { useNavigate } from "react-router-dom";
 import Paragraphs from "../sectionElements/Paragraphs";
 import SectionArea from "../sectionElements/SectionArea";
@@ -10,14 +9,13 @@ import Button from "../interactives/Button";
 import content from "../../content/content";
 
 export default function Faq({ colorMode }) {
-
   const navigate = useNavigate();
 
   // Classes de tema
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "squares",
+    default: "",
   };
   const textClasses = {
     dark: "text-white",

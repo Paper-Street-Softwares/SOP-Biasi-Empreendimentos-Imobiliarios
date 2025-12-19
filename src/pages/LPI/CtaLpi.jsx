@@ -10,7 +10,7 @@ export default function CtaLpi({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgFixedDark",
     light: "bg-bgFixedLight",
-    default: "squares",
+    default: "",
   };
   const textClasses = {
     dark: "text-white",

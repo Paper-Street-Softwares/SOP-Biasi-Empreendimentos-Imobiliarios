@@ -8,7 +8,7 @@ import Button from "../../interactives/Button";
 export default function WhyUs({}) {
   return (
     <>
-      <SectionArea paddingtop={true} className="squares">
+      <SectionArea paddingtop={true} className="">
         <SectionWrapper>
           <SectionHeader
             miniTitle={contentLp01.whyUs.sectionHeader.miniTag}

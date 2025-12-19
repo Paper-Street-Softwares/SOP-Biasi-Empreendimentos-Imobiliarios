@@ -11,8 +11,8 @@ export default function FeaturesWithIcons({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     // light: "bg-bgSectionOpacityLight",
-    light: "squares",
-    default: "squares",
+    light: "",
+    default: "",
   };
   const textClasses = {
     dark: "text-white",

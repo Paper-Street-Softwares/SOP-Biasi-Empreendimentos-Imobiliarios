@@ -1,35 +1,35 @@
-import React from 'react'
-import SectionArea from '../sectionElements/SectionArea'
-import SectionWrapper from '../sectionElements/SectionWrapper'
-import SectionHeader from '../sectionElements/SectionHeader'
-import content from '../../content/content'
-import ImageGallery from 'react-image-gallery'
-import 'react-image-gallery/styles/css/image-gallery.css'
-import MotionDivDownToUp from '../animation/MotionDivDownToUp'
-import IconButtonFeatureCard from '../cards/IconButtonFeatureCard'
+import React from "react";
+import SectionArea from "../sectionElements/SectionArea";
+import SectionWrapper from "../sectionElements/SectionWrapper";
+import SectionHeader from "../sectionElements/SectionHeader";
+import content from "../../content/content";
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
+import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import IconButtonFeatureCard from "../cards/IconButtonFeatureCard";
 
 function FeaturesWithCarousel({ colorMode }) {
   const bgClasses = {
-    dark: 'bg-bgSectionOpacityDark',
-    light: 'bg-bgSectionOpacityLight',
-    default: 'squares',
-  }
+    dark: "bg-bgSectionOpacityDark",
+    light: "bg-bgSectionOpacityLight",
+    default: "bg-neutral-50",
+  };
   const textClasses = {
-    dark: 'text-white',
-    light: 'text-black',
-    default: 'bg-transparent',
-  }
-  const bgClass = bgClasses[colorMode] || bgClasses.default
-  const textClass = textClasses[colorMode] || textClasses.default
+    dark: "text-white",
+    light: "text-black",
+    default: "bg-transparent",
+  };
+  const bgClass = bgClasses[colorMode] || bgClasses.default;
+  const textClass = textClasses[colorMode] || textClasses.default;
 
   const images = Object.values(content.texts.features.imagesFeatures).map(
     (img) => ({
       original: img,
       thumbnail: img,
     })
-  )
+  );
 
-  const features = Object.values(content.texts.features.cards)
+  const features = Object.values(content.texts.features.cards);
 
   return (
     <SectionArea
@@ -82,7 +82,7 @@ function FeaturesWithCarousel({ colorMode }) {
             <MotionDivDownToUp>
               <div
                 key={index}
-                className="flex-1 flex flex-wrap justify-center gap-6 tablet1:gap-4 items-center tablet1:items-start"
+                className="flex flex-wrap items-center justify-center flex-1 gap-6 tablet1:gap-4 tablet1:items-start"
               >
                 <IconButtonFeatureCard
                   icon={card.icon}
@@ -98,7 +98,7 @@ function FeaturesWithCarousel({ colorMode }) {
         </div>
       </SectionWrapper>
     </SectionArea>
-  )
+  );
 }
 
-export default FeaturesWithCarousel
+export default FeaturesWithCarousel;

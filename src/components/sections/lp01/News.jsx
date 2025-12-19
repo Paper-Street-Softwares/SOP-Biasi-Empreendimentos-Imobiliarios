@@ -11,7 +11,7 @@ export default function News() {
 
   return (
     <div
-      className="squares"
+      className=""
       //   style={{
       //     backgroundImage: `url(${contentLp01.news.bgImg})`,
       //     backgroundRepeat: "no-repeat",

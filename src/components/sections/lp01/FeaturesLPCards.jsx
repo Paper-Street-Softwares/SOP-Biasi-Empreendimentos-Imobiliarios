@@ -17,7 +17,7 @@ export default function FeaturesParagraphs({ colorMode }) {
   const bgClasses = {
     dark: "bg-bgSectionOpacityDark",
     light: "bg-bgSectionOpacityLight",
-    default: "squares",
+    default: "",
   };
   const textClasses = {
     dark: "text-white",
