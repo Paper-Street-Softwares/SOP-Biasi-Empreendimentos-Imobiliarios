@@ -96,5 +96,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         </Routes>
       )}
     </Router>
-  </ColorModeProvider>
+  </ColorModeProvider>,
 );
